@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    font-family:'Outfit', sans-serif;
+    font-size:3.5vh;
+    font-weight:300;
+    margin:0px;
+    padding:0px;
+    border:none;
+    border-radius:10px;
+}
+
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+main{
+    height:60vh;
+    min-width:45vh;
+    background-color:lightgrey;
+    opacity:30%;
+    border-radius:25px;
+}
+
+
+.screen{
+    margin:3vh;
+    max-width:40vh;
+    max-height:10vh;
+    font-size:7vh;
+    text-align:right;
+    border-radius:15px;
+    background:white;
+    overflow:hidden;
+}
+
+.calc-buttons{
+    display:grid;
+    gap:3vh;
+    margin-top:5vh;
+}
+.calc-buttons-rows{
+    display:flex;
+    justify-content:center;
+    gap:6vh;
+}
+.calc-button{
+    height:5vh;
+    width:5vh;
+    background-color:white;
+}
+.calc-button:last-child{
+    background-color:plum;
+}
+.calc-button-double{
+    height:5vh;
+    width:16vh;
+    background-color:white;
+}
